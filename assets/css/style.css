@@ -1,59 +1,166 @@
-:root 
-    {
-        /* Color Palette */
-        --grey: rgb(167, 163, 160);
-        --white: #fff;
-        --dk-blue: rgb(14, 36, 127);
-        --navlink-color: #b9c6ae;
-    }
+/**************************************************/
+/*Author : Lee Macklin                            */
+/*Date   : 5/2/2021                               */
+/*Purpose: CSS for building out a portfolio of    */
+/*         work performed for the purpose of      */
+/*         marketing my skills to potential       */
+/*         employers                              */
+/**************** Globals *************************/
+:root{
+    --font-family: 'Verdana', 'Arial Narrow', Arial, sans-serif;
+}
 
-/* Header CSS-Start */
-.header-flex-container 
-    {
-        display: flex;
-        align-items: baseline;
-        justify-content: flex-start;
-    }
-.header-flex-container > div 
-    {
-        margin: 10px;
-        padding: 20px;
-        font-size: 30px;
-    }
+/**************************************************/
+/************** Header-Section - Start ************/
+/**************************************************/
+.header-section {
+    display: flex;
+    height: 100px;
+    margin: 0px;
+    align-items: center;
+    font-family: var(--font-family);
+}
 
-#headshot 
-    {
-        background-image: url(../images/Headshot.png);
-        height: 75px;
-        width: 75px;
-        background-repeat: no-repeat;
-        background-size: contain;
-        display: block;
-    }
+#headshot {
+    order:1;
+}
+#headshot img{
+    width: 100px;
+    height: 100px;
+}
+#namePlate{
+    order:2;
+}
+#namePlate img{
+    height: auto;
+    width: 300px;
+}
 
-#name-plate 
-    {
-        background-image: url(../images/name-plate.png);
-        width: 350px;
-        height: 50px;
-        background-repeat: no-repeat;
-        background-size: contain;
-        display: block;
-        align-items:flex-start;
-    }
+#topNav{
+    order:3;
+    display:flex;
+    margin-left:auto;
+}
 
-    .nav-container{
-        display:flex;
-        justify-content: flex-end;
-        background-color: var(--grey);
-        align-items:;
-    }
-    .nav-list{
-        display: flex;
-        justify-content: flex-end;
-    }
-    .list-items{
-        list-style: none;
-        margin-right: 15px;
-    }
-/* Header CSS - End*/
+#topNav div{
+    margin:.4em;
+    color:rgb(14,36,127);
+}
+
+.navElement{
+    font-size: 1em;
+}
+
+/************** Header-Section - End **************/
+
+/**************************************************/
+/************* Banner Section - Begin *************/
+/**************************************************/
+.banner{
+    display: flex;
+    position: relative;
+    font-family: var(--font-family);
+}
+
+.banner img {
+    width:100%
+}
+
+.bannerWin {
+    right: 25px;
+    top: 5px;
+    height: 40px;
+    width: 400px;
+    opacity: 0.8;
+    padding: 10px;
+    position: absolute;
+    background: #ffff;
+    border: 5px solid midnightblue;
+    border-radius: 10px;
+  }
+
+  .bannerWin div{
+      align-content: center;
+  }
+
+  .special{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    color: green;
+  }
+/************* Banner Section - End ***************/
+
+/**************************************************/
+/************* Meet Me Section - Begin ************/
+/**************************************************/
+.meetMe {
+    display: flex;
+
+    margin: 0px;
+    font-size: .85em;
+    align-items: center;
+    font-style: oblique;
+    color:midnightblue;
+    justify-content:space-around;
+    font-family: var(--font-family);
+    background-color:rgb(243, 243, 243);
+} 
+
+.leftSide {
+    display: flex;
+    
+    width: 50%;
+    white-space: nowrap;
+    font-size: 24px;
+    padding-left: 1em;
+    padding-right: 2em;
+    align-items:flex-end;
+    flex-direction: column;
+    justify-content:flex-end;
+    align-content: flex-end;
+}
+
+#whoLeeIs {
+    font-style:normal;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+whoLeeIs p{
+    text-align: justify;
+    text-justify:distribute-all-lines;
+}
+
+#moreLessDots {display: none;}
+#moreLessBtn{
+    text-decoration: underline;
+    font-size: 12px;
+    font-weight: 5000;
+}
+#moreLessText {display: inline;}
+/***************** Meet-Me End ********************/
+
+/**************************************************/
+/************* Meet Me Section - Begin ************/
+/**************************************************/
+.work {
+    display: flex;
+
+    height: 200px;
+    position: relative;
+    border-radius: 10px;
+    background-color:rgb(0, 131, 0);
+}
+
+.contact {
+    display: flex;
+
+    height: 200px;
+    background-color:darkgoldenrod;
+}
+/**************Responsive CSS Start ********
+@media(min-width:782px){
+    body {
+        display: flex;        
+      }
+}**/
