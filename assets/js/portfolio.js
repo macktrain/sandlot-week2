@@ -1,30 +1,32 @@
-
-
-/*[
-    {
-        "Example": "1",
-        "Example Name": "Example 1",
-        "Description": "HTML",
-        "Technologies Used": "HTML/CSS/js",
-        "URL": "www.gitLee.com/ex1"
-    },
-    {
-        "Example": "2",
-        "Example Name": "Example 2",
-        "Description": "CSS",
-        "Technologies Used": "HTML/CSS/js",
-        "URL": "www.gitLee.com/ex2"
-    },
-    {
-        "Example": "3",
-        "Example Name": "Example 3",
-        "Description": "Javasctipt",
-        "Technologies Used": "HTML/CSS/js",
-        "URL": "www.gitLee.com/ex3"
-    }
-]*/
-/*Pulled myFunction code from CSS Tricks */
 var show = "hide";
+/*var prevScreenSize = 1000;
+var currScreenSize = 0;
+
+currScreenSize == document.documentElement.clientWidth;
+
+window.addEventListener("resize", resizeFunction);
+
+function resizeFunction() {
+    prevScreenSize = currScreenSize;
+    currScreenSize = document.documentElement.clientWidth;
+    //console.log (document.documentElement.clientWidth);
+
+    if (prevScreenSize > currScreenSize)
+    {
+        if (currScreenSize <= 782)
+        {
+            moreLessFunction();
+        }   
+    }
+    if (prevScreenSize < currScreenSize)
+    {
+        if (currScreenSize >= 782)
+        {
+            //alert ("Inside If-Then #2 " + document.documentElement.clientWidth);
+            moreLessFunction();
+        }   
+    }
+}*/
 
 function moreLessFunction() {
     var moreLessDots = document.getElementById("moreLessDots");
@@ -42,4 +44,4 @@ function moreLessFunction() {
         moreLessText.style.display = "inline";
         show = "hide";
     }
-  }
+}
