@@ -1,19 +1,11 @@
-var url = "https://macktrain.github.io/sandlot-week2/assets/json/portfolio.json";
+var xhr = new XMLHttpRequest();
 
-var xmlhttp = new XMLHttpRequest();
-
-xmlhttp.onreadystatechange = function() 
-{
-    
-    if (this.readyState == 4 && this.status == 200) 
-    {
-        var portfolioArr = JSON.parse(this.responseText);
-        buildHTML(portfolioArr);
-    }
+xhr.open("GET", "../assets/js/portfolioXML.txt", true);
+xhr.onload = function(){
+    alert("hello");
 };
+xhr.send();
 
-xmlhttp.open("GET", url, true);
-xmlhttp.send();
 
 function buildHTML(x) 
 {
@@ -22,22 +14,20 @@ function buildHTML(x)
     
     for(i = 0; i < x.length; i++) 
     {
-        alert (x.example[i].exName);
         html += "   <div class='workDiv'>";
         html += "       <div class='exampleName'>";
-        html += "           " +   x[i].exName;
+        html += "           " +   x.example[i].exName;
         html += "        </div>";
         html += "       <div class='description'>";
-        html += "           " +   x[i].description;
+        html += "           " +   x.example[i].description;
         html += "       </div>";
         html += "       <div class='techUsed'>";
-        html += "           " +   x[i].techUsed;
+        html += "           " +   x.example[i].techUsed;
         html += "       </div>";
         html += "       <div class='url'>";
-        html += "           " +   x[i].url;
+        html += "           " +   x.example[i].url;
         html += "       </div>";
         html += "   </div>";
     }
-    document.getElementById("workHTML").innerHTML = html;
-    alert ("*"+ html + "*");
+    //alert ("*"+ html + "*");
 }
