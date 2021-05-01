@@ -1,18 +1,24 @@
-var xhr = new XMLHttpRequest();
+var url = "https://macktrain.github.io/sandlot-week2/assets/json/portfolio.json";
+var xhro = new XMLHttpRequest();
 
-xhr.open("GET", "../assets/js/portfolioXML.txt", true);
-xhr.onload = function(){
-    alert("hello");
+xhro.onreadystatechange = function() 
+{
+    if (this.readyState == 4 && this.status == 200) 
+    {
+        //alert(this.responseText);
+        var json = JSON.parse(this.responseText);
+        buildHTML(json);
+    }
 };
-xhr.send();
-
+xhro.open("GET", url, true);
+xhro.send();
 
 function buildHTML(x) 
 {
     var html = "";
     var i;
     
-    for(i = 0; i < x.length; i++) 
+    for(i = 0; i < x.example.length; i++) 
     {
         html += "   <div class='workDiv'>";
         html += "       <div class='exampleName'>";
@@ -29,5 +35,5 @@ function buildHTML(x)
         html += "       </div>";
         html += "   </div>";
     }
-    //alert ("*"+ html + "*");
+    document.getElementById("workHTML").innerHTML = html;
 }
