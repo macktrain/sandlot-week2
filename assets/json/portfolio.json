@@ -21,6 +21,41 @@
             "description": "Javasctipt",
             "techUsed": "HTML/CSS/js",
             "url": "www.gitLee.com/ex3"
+        },
+        {
+            "exNum": 3,
+            "exName": "Example 3",
+            "description": "HTML",
+            "techUsed": "HTML/CSS/js",
+            "url": "www.gitLee.com/ex1"
+        },
+        {
+            "exNum": 4,
+            "exName": "Example 4",
+            "description": "CSS",
+            "techUsed": "HTML/CSS/js",
+            "url": "www.gitLee.com/ex2"
+        },
+        {
+            "exNum": 5,
+            "exName": "Example 5",
+            "description": "Javasctipt",
+            "techUsed": "HTML/CSS/js",
+            "url": "www.gitLee.com/ex3"
+        },
+        {
+            "exNum": 6,
+            "exName": "Example 6",
+            "description": "Javasctipt",
+            "techUsed": "HTML/CSS/js",
+            "url": "www.gitLee.com/ex3"
+        },
+        {
+            "exNum": 7,
+            "exName": "Example 7",
+            "description": "Javasctipt",
+            "techUsed": "HTML/CSS/js",
+            "url": "www.gitLee.com/ex3"
         }
     ]
 }

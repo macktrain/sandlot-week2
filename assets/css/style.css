@@ -67,7 +67,7 @@
     width:100%
 }
 
-.bannerWin, #portfolioWin {
+.bannerWin {
     right: 25px;
     top: 5px;
     height: 40px;
@@ -150,8 +150,35 @@ whoLeeIs p{
 /**************************************************/
 
 /* Shared Classes with Banner */
-.work img {
-    width:100%;
+
+/*EACH portfolio example must get its' own overlay window */
+.work{
+    background-image: url("../images/portfolioBack.jpg");
+    background-size: cover;
+    opacity: .85;
+
+}
+
+#portfolioWin {
+    display: flex;
+    justify-content: flex-start;
+    align-content: space-between;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.example {
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    margin: 10px;
+    height: auto;
+    width: auto;
+    opacity: 0.8;
+    padding: 10px;
+    position: relative;
+    background: #ffff;
+    border: 5px solid rgb(19, 63, 19);
+    border-radius: 10px;
 }
 
 /***************** Work End ********************/
@@ -162,7 +189,7 @@ whoLeeIs p{
 .contact {
     display: flex;
 
-    height: 200px;
+    height: 10px;
     background-color:darkgoldenrod;
 }
 /***************** Contact End ********************/
