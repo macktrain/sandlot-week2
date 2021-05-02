@@ -20,7 +20,7 @@ function buildHTML(x)
     
     for(i = 0; i < x.example.length; i++) 
     {
-        html += "   <div class='workDiv'>";
+        html += "   <div class='example'>";
         html += "       <div class='exampleName'>";
         html += "           " +   x.example[i].exName;
         html += "        </div>";
@@ -35,5 +35,5 @@ function buildHTML(x)
         html += "       </div>";
         html += "   </div>";
     }
-    document.getElementById("workHTML").innerHTML = html;
+    document.getElementById("portfolioWin").innerHTML = html;
 }

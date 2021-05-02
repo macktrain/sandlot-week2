@@ -56,9 +56,10 @@
 /**************************************************/
 /************* Banner Section - Begin *************/
 /**************************************************/
-.banner{
+.banner, .work{
     display: flex;
     position: relative;
+    width: auto;
     font-family: var(--font-family);
 }
 
@@ -66,7 +67,7 @@
     width:100%
 }
 
-.bannerWin {
+.bannerWin, #portfolioWin {
     right: 25px;
     top: 5px;
     height: 40px;
@@ -79,11 +80,11 @@
     border-radius: 10px;
   }
 
-  .bannerWin div{
+  .bannerWin, #portfolioWin div{
       align-content: center;
   }
 
-  .special{
+  .greenItalText{
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-style: italic;
     color: green;
@@ -97,6 +98,7 @@
     display: flex;
 
     margin: 0px;
+    padding-right: 50px;
     font-size: .85em;
     align-items: center;
     font-style: oblique;
@@ -108,6 +110,7 @@
 
 .leftSide {
     display: flex;
+    position: relative;
     
     width: 50%;
     white-space: nowrap;
@@ -143,23 +146,26 @@ whoLeeIs p{
 /***************** Meet-Me End ********************/
 
 /**************************************************/
-/************* Meet Me Section - Begin ************/
+/************* Work Section - Begin ************/
 /**************************************************/
-.work {
-    display: flex;
 
-    height: 200px;
-    position: relative;
-    border-radius: 10px;
-    background-color:rgb(0, 131, 0);
+/* Shared Classes with Banner */
+.work img {
+    width:100%;
 }
 
+/***************** Work End ********************/
+
+/**************************************************/
+/************* Contact Section - Begin ************/
+/**************************************************/
 .contact {
     display: flex;
 
     height: 200px;
     background-color:darkgoldenrod;
 }
+/***************** Contact End ********************/
 /**************Responsive CSS Start ********
 @media(min-width:782px){
     body {
