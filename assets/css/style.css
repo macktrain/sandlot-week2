@@ -8,6 +8,7 @@
 /**************** Globals *************************/
 :root{
     --font-family: 'Verdana', 'Arial Narrow', Arial, sans-serif;
+    --font-size: 1.35em;
 }
 
 /**************************************************/
@@ -16,13 +17,17 @@
 .header-section {
     display: flex;
     width: auto;
+    align-items:center
 }
 
 #headshot {
-    background-image: url("../images/Headshot.jpg");
-    background-size: cover;
 }
 
+#headshot  img{
+    margin: auto;
+    width: 100%;
+    max-width: 100px;
+    max-height:100%
 }
 
 #namePlate img{
@@ -33,6 +38,7 @@
 #topNav{
     display:flex;
     margin-left:auto;
+    font-size: var(--font-size);
     font-family: var(--font-family);
 }
 
@@ -50,7 +56,7 @@
 /**************************************************/
 /************* Banner Section - Begin *************/
 /**************************************************/
-.banner, .work{
+.banner{
     display: flex;
     flex-wrap: wrap;
     position: relative;
@@ -129,13 +135,13 @@
 #whoLeeIs p{
     text-align: justify;
     text-justify:distribute-all-lines;
+    font-size: var(--font-size);
 }
 
 #moreLessDots {display: none;}
 #moreLessBtn{
     text-decoration: underline;
-    font-size: 12px;
-    font-weight: 5000;
+    font-size: .75em;
 }
 #moreLessText {display: inline;}
 /***************** Meet-Me End ********************/
@@ -148,9 +154,15 @@
 
 /*EACH portfolio example must get its' own overlay window */
 .work{
+    display: flex;
+    
+    flex-wrap: wrap;
+    position: relative;
     background-image: url("../images/portfolioBack.jpg");
     background-size: cover;
     opacity: .85;
+    width: auto;
+    font-family: var(--font-family);
 
 }
 
