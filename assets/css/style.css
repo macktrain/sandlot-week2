@@ -161,8 +161,10 @@ whoLeeIs p{
 
 #portfolioWin {
     display: flex;
+
     justify-content: flex-start;
     align-content: space-between;
+    flex-wrap: wrap;
     margin-top: 100px;
     margin-bottom: 100px;
 }
