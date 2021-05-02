@@ -15,31 +15,25 @@
 /**************************************************/
 .header-section {
     display: flex;
-    height: 100px;
-    margin: 0px;
-    align-items: center;
-    font-family: var(--font-family);
+    width: auto;
 }
 
 #headshot {
-    order:1;
+    background-image: url("../images/Headshot.jpg");
+    background-size: cover;
 }
-#headshot img{
-    width: 100px;
-    height: 100px;
+
 }
-#namePlate{
-    order:2;
-}
+
 #namePlate img{
     height: auto;
     width: 300px;
 }
 
 #topNav{
-    order:3;
     display:flex;
     margin-left:auto;
+    font-family: var(--font-family);
 }
 
 #topNav div{
@@ -58,6 +52,7 @@
 /**************************************************/
 .banner, .work{
     display: flex;
+    flex-wrap: wrap;
     position: relative;
     width: auto;
     font-family: var(--font-family);
@@ -108,7 +103,7 @@
     background-color:rgb(243, 243, 243);
 } 
 
-.leftSide {
+#whoIsLee {
     display: flex;
     position: relative;
     
@@ -131,7 +126,7 @@
     text-justify: inter-word;
 }
 
-whoLeeIs p{
+#whoLeeIs p{
     text-align: justify;
     text-justify:distribute-all-lines;
 }
@@ -162,11 +157,10 @@ whoLeeIs p{
 #portfolioWin {
     display: flex;
 
-    justify-content: flex-start;
-    align-content: space-between;
+    justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
-    margin-top: 100px;
-    margin-bottom: 100px;
+    margin: 100px;
 }
 
 .example {
