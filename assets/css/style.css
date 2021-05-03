@@ -17,10 +17,8 @@
 .header-section {
     display: flex;
     width: auto;
-    align-items:center
-}
-
-#headshot {
+    align-items:center;
+    flex-wrap: wrap;
 }
 
 #headshot  img{
@@ -48,7 +46,12 @@
 }
 
 .navElement{
-    font-size: 1em;
+    white-space: nowrap;
+    font-size: .9em;
+}
+
+#quoteAuthor{
+    flex-direction:column-reverse;
 }
 
 /************** Header-Section - End **************/
@@ -71,7 +74,7 @@
 .bannerWin {
     right: 25px;
     top: 5px;
-    height: 40px;
+    height: 60px;
     width: 400px;
     opacity: 0.8;
     padding: 10px;
@@ -117,7 +120,7 @@
     white-space: nowrap;
     font-size: 24px;
     padding-left: 1em;
-    padding-right: 2em;
+    padding-right: 1em;
     align-items:flex-end;
     flex-direction: column;
     justify-content:flex-end;
@@ -133,6 +136,11 @@
 }
 
 #whoLeeIs p{
+    text-align: justify;
+    text-justify:distribute-all-lines;
+    font-size: var(--font-size);
+}
+#howToContact div p{
     text-align: justify;
     text-justify:distribute-all-lines;
     font-size: var(--font-size);
@@ -153,9 +161,9 @@
 /* Shared Classes with Banner */
 
 /*EACH portfolio example must get its' own overlay window */
-.work{
+#work{
     display: flex;
-    
+
     flex-wrap: wrap;
     position: relative;
     background-image: url("../images/portfolioBack.jpg");
@@ -177,7 +185,6 @@
 
 .example {
     background-color: rgb(255, 255, 255);
-    border-radius: 10px;
     margin: 10px;
     height: auto;
     width: auto;
@@ -185,8 +192,10 @@
     padding: 10px;
     position: relative;
     background: #ffff;
-    border: 5px solid rgb(19, 63, 19);
+    border: 10px solid green;
     border-radius: 10px;
+    width:200px;
+    height:200px;
 }
 
 /***************** Work End ********************/
@@ -194,16 +203,44 @@
 /**************************************************/
 /************* Contact Section - Begin ************/
 /**************************************************/
+
 .contact {
     display: flex;
-
-    height: 10px;
-    background-color:darkgoldenrod;
+    width: auto;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items: baseline;
+    text-align:center;
 }
+
+#contactMe p{
+    position: relative;
+    padding-left: 1em;
+    padding-right: 1em;
+    font-style: italic;
+    font-size: var(--font-size);
+}
+
+.contact div {
+    margin:1em;
+    color:rgb(14,36,127);
+    font-family: var(--font-family);
+}
+
+#contactMethods{
+    display:flex; 
+    flex-wrap: wrap;
+}
+
+#contactMethods div p {
+    white-space: nowrap;
+}
+
 /***************** Contact End ********************/
-/**************Responsive CSS Start ********
-@media(min-width:782px){
-    body {
-        display: flex;        
-      }
-}**/
+/**************Responsive CSS Start ********/
+@media(max-width:782px){
+    #topNav {
+        flex-direction: row;
+        align-items: center;
+    }
+}

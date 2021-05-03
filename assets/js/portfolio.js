@@ -1,4 +1,3 @@
-var show = "hide";
 /*var prevScreenSize = 1000;
 var currScreenSize = 0;
 
@@ -27,12 +26,13 @@ function resizeFunction() {
         }   
     }
 }*/
+var show = "hide";
 
 function moreLessFunction() {
     var moreLessDots = document.getElementById("moreLessDots");
     var moreLessText = document.getElementById("moreLessText");
     var moreLessBtn = document.getElementById("moreLessBtn");
-    
+
     if (show==="hide") {
         moreLessDots.style.display = "inline";
         moreLessBtn.innerHTML = "Read more";
