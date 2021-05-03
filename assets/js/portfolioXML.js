@@ -49,7 +49,7 @@ function buildHTML(x)
             html += "           " +   x.example[i].techUsed;
             html += "       </div>";
             html += "       <div class='url'>";
-            html += "           " +   x.example[i].url;
+            html += "           <a href='"+ x.example[i].url +"'>View Here</a>";
             html += "       </div>";
         }
         html += "   </div>";

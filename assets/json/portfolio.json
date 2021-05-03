@@ -3,7 +3,7 @@
     [
         {
             "exNum": 0,
-            "exName": "Lee Macklin Portfolio",
+            "exName": "Lee Macklin Portfolio Page",
             "description": "Page for Recruiters and Hiring Managers",
             "techUsed": "HTML/DHTML, js, css, AJAX",
             "status": "Live",
@@ -63,7 +63,7 @@
             "description": "Javasctipt",
             "techUsed": "HTML/CSS/js",
             "status": "Coming-Soon",
-            "url": "https://macktrain.github.io"
+            "url": "www.gitLee.com/ex3"
         }
     ]
 }
