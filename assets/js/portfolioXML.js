@@ -27,17 +27,15 @@ function buildHTML(x)
         html += "   <div class='example' id='exampleOrder"+ (i+1) +"'>";
         if (!isLive)
         {
-            html += "       <div class='comingSoon'>";  
             html += "           <div class='exampleName' >";
             html += "               " +   x.example[i].exName;
             html += "           </div>";
             html += "           <div class='description'>";
             html += "               " +   x.example[i].description;
             html += "           </div>";
-            html += "           <div class='exampleName' >";
+            html += "           <div class='comingSoon' >";
             html += "               <p> COMING SOON!</p>";
             html += "           </div>";
-            html += "       </div>";
         }
         else
         {

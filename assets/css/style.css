@@ -197,8 +197,16 @@
     width:200px;
     height:200px;
 }
+/********Start Dynamic Porfolio CSS****************/
+.exampleName{
+    background-color:rgb(185, 246, 185);
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+/********  End Dynamic Porfolio CSS****************/
 
-/***************** Work End ********************/
+/***************** Work End ***********************/
 
 /**************************************************/
 /************* Contact Section - Begin ************/

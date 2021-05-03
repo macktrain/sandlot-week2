@@ -3,67 +3,67 @@
     [
         {
             "exNum": 0,
-            "exName": "Example 1",
-            "description": "HTML",
-            "techUsed": "HTML/CSS/js",
+            "exName": "Lee Macklin Portfolio",
+            "description": "Page for Recruiters and Hiring Managers",
+            "techUsed": "HTML/DHTML, js, css, AJAX",
             "status": "Live",
-            "url": "www.gitLee.com/ex1"
+            "url": "https://macktrain.github.io/sandlot-week2/"
         },
         {
             "exNum": 1,
-            "exName": "Example 2",
+            "exName": "Password Generator",
             "description": "CSS",
             "techUsed": "HTML/CSS/js",
             "status": "Coming-Soon",
-            "url": "www.gitLee.com/ex2"
+            "url": "https://macktrain.github.io"
         },
         {
             "exNum": 2,
-            "exName": "Example 3",
+            "exName": "Decompiler",
             "description": "Javasctipt",
             "techUsed": "HTML/CSS/js",
             "status": "Coming-Soon",
-            "url": "www.gitLee.com/ex3"
+            "url": "https://macktrain.github.io"
         },
         {
             "exNum": 3,
-            "exName": "Example 3",
+            "exName": "Cure for Cancer",
             "description": "HTML",
             "techUsed": "HTML/CSS/js",
             "status": "Coming-Soon",
-            "url": "www.gitLee.com/ex1"
+            "url": "https://macktrain.github.io"
         },
         {
             "exNum": 4,
-            "exName": "Example 4",
+            "exName": "End World Hunger",
             "description": "CSS",
             "techUsed": "HTML/CSS/js",
             "status": "Coming-Soon",
-            "url": "www.gitLee.com/ex2"
+            "url": "https://macktrain.github.io"
         },
         {
             "exNum": 5,
-            "exName": "Example 5",
-            "description": "Javasctipt",
+            "exName": "Mission to the World",
+            "description": "Javascript",
             "techUsed": "HTML/CSS/js",
             "status": "Coming-Soon",
-            "url": "www.gitLee.com/ex3"
+            "url": "https://macktrain.github.io"
         },
         {
             "exNum": 6,
-            "exName": "Example 6",
+            "exName": "Love of Jesus Christ",
             "description": "Javasctipt",
             "techUsed": "HTML/CSS/js",
             "status": "Coming-Soon",
-            "url": "www.gitLee.com/ex3"
+            "url": "https://macktrain.github.io"
         },
         {
             "exNum": 7,
-            "exName": "Example 7",
+            "exName": "Big Brother",
             "description": "Javasctipt",
             "techUsed": "HTML/CSS/js",
             "status": "Coming-Soon",
-            "url": "www.gitLee.com/ex3"
+            "url": "https://macktrain.github.io"
         }
     ]
 }
