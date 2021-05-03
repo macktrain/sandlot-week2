@@ -20,6 +20,7 @@
 ## Future Opportunities
 <ol type="1">
     <li>Style the resume page</li>
+    <li>Create administrative page to add portfolio examples that ultimately populates the examples in the Portfolio page</li>
     <li>Allow a user to drag/drop the examples within the main page</li>
 </ol>
 
