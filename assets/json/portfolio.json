@@ -11,11 +11,11 @@
         },
         {
             "exNum": 1,
-            "exName": "Password Generator",
-            "description": "CSS",
-            "techUsed": "HTML/CSS/js",
-            "status": "Coming-Soon",
-            "url": "https://macktrain.github.io"
+            "exName": "petFinder Tool",
+            "description": "Leveraged API End Points and code to build own functionality",
+            "techUsed": "HTML/CSS/JS/JSON/APIs",
+            "status": "Live",
+            "url": "https://macktrain.github.io/teamProject"
         },
         {
             "exNum": 2,
