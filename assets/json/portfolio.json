@@ -12,18 +12,18 @@
         {
             "exNum": 1,
             "exName": "petFinder Tool",
-            "description": "Leveraged API End Points and code to build own functionality",
+            "description": "Leveraged API End Points and code to build own,new functionality: Built capability to dynamically add 'Current Location' and 'Destination' while dynamically producing directions between the two with a map.",
             "techUsed": "HTML/CSS/JS/JSON/APIs",
             "status": "Live",
             "url": "https://macktrain.github.io/teamProject"
         },
         {
             "exNum": 2,
-            "exName": "Decompiler",
-            "description": "Javasctipt",
-            "techUsed": "HTML/CSS/js",
-            "status": "Coming-Soon",
-            "url": "https://macktrain.github.io"
+            "exName": "Agarthan Adventures Game",
+            "description": "This is a word based decision game that allows a player to fight for XRP!",
+            "techUsed": "HTML/CSS/js/Node.js/APIs/Handlebars.js/",
+            "status": "Live",
+            "url": "https://macktrain.github.io/Agarthan-Adventures"
         },
         {
             "exNum": 3,
